@@ -1,0 +1,3 @@
+displayName = SophmoreProject
+author = Connor
+version = 0.1
