@@ -2,6 +2,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using SophmoreProject.Internal;
 
 namespace SophmoreProject.NPCs.Enemies
 {
@@ -9,6 +10,13 @@ namespace SophmoreProject.NPCs.Enemies
 	// HEY UM SLIME HAS SOME WHITE STUFF ON A FRAME HAVE FUIN
 	public class XithenSlime : ModNPC
 	{
+
+		#if DEBUG
+			float spawnCoeffcient = Debug.XithSlimeHighSpawnRate;
+		#else 
+			float spawnCoeffcient = .2f;
+		#endif
+
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Xithen Slime");
@@ -34,7 +42,7 @@ namespace SophmoreProject.NPCs.Enemies
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
-			return SpawnCondition.OverworldDaySlime.Chance * .2f; // .2
+			return SpawnCondition.OverworldDaySlime.Chance * spawnCoeffcient; // .2
 		}
 
 		public override void NPCLoot()

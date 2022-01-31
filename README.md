@@ -14,4 +14,5 @@ I reccomend installing a hacks mod like Cheat Sheet to assist in testing
 - Investigate ore generation
 - Make custom Xith particle effect
 - Make final omega sword (and boss specific ingredients)
-- Standardize Palette
+- Standardize Palette]
+- Create Debug struct for testing
