@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace SophmoreProject.NPCs
+namespace SophmoreProject.NPCs.Enemies
 {
 
 	// HEY UM SLIME HAS SOME WHITE STUFF ON A FRAME HAVE FUIN
@@ -39,7 +39,7 @@ namespace SophmoreProject.NPCs
 
 		public override void NPCLoot()
 		{
-			Item.NewItem(npc.getRect(), ModContent.ItemType<Xithricite>(), Main.rand.Next(1, 3));
+			Item.NewItem(npc.getRect(), ModContent.ItemType<Items.Materials.Xithricite>(), Main.rand.Next(1, 3));
 		}
 	}
 }

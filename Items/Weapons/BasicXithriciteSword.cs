@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace SophmoreProject.Items
+namespace SophmoreProject.Items.Weapons
 {
 	public class BasicXithriciteSword : ModItem
 	{
@@ -30,7 +30,7 @@ namespace SophmoreProject.Items
 		public override void AddRecipes() 
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ModContent.ItemType<Xithricite>(), 7);
+			recipe.AddIngredient(ModContent.ItemType<Items.Materials.Xithricite>(), 7);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

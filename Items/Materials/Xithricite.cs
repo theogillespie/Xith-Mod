@@ -1,7 +1,10 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
+using Terraria;
+using SophmoreProject.Internal;
 
-namespace SophmoreProject.Items
+namespace SophmoreProject.Items.Materials
 {
 
 	
@@ -22,6 +25,11 @@ namespace SophmoreProject.Items
 			item.value = 400;
 			item.rare = ItemRarityID.Blue;
 			
+		}
+
+		public override void PostUpdate()
+		{
+			Lighting.AddLight(item.Center, new Vector3(Palette.lightColor.R, Palette.lightColor.G, Palette.lightColor.B) * .005f);
 		}
 
 		/*
