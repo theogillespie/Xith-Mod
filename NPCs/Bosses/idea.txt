@@ -1,0 +1,9 @@
+Here is my idea for a boss:
+
+Think king slime but visually changed to be purple and glowy 
+Like king slime, it spawns minions to swarm the player
+Additionally, it shoots large, explosive bolts down in roughly the players direction
+Upon its death, the slime turns into multiple tiles of "Liquid Xithricite" which is a harmless viscous Liquid
+The player can collect this in a bottle/bucket
+
+After a predetermined amount of time, some of the tiles will disappear and others will turn into XithenSlimes
