@@ -6,6 +6,13 @@
 ## Notes:
 I reccomend installing a hacks mod like Cheat Sheet to assist in testing
 
+
+
+## things to do today:
+- create xith ore
+- create liquid xith
+- flesh out boss
+
 ### TODO:
 
 - Update Sword Sprites

@@ -6,8 +6,6 @@ using SophmoreProject.Internal;
 
 namespace SophmoreProject.Items.Materials
 {
-
-	
 	public class Xithricite : ModItem
 	{
 		public override void SetStaticDefaults()
@@ -20,8 +18,8 @@ namespace SophmoreProject.Items.Materials
 		{
 			item.maxStack = 99;                 //this is where you set the max stack of item
 			item.consumable = false;           //this make that the item is consumable when used
-			item.width = 32;
-			item.height = 32;
+			item.width = 8;
+			item.height = 8;
 			item.value = 400;
 			item.rare = ItemRarityID.Blue;
 			
@@ -32,14 +30,14 @@ namespace SophmoreProject.Items.Materials
 			Lighting.AddLight(item.Center, new Vector3(Palette.lightColor.R, Palette.lightColor.G, Palette.lightColor.B) * .005f);
 		}
 
-		/*
+	
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.DirtBlock, 1);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddIngredient(ModContent.ItemType<Items.Materials.XithenOreItem>(), 3);
+			recipe.AddTile(ItemID.Furnace);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
-		}*/
+		}
 	}
 }
