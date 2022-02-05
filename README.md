@@ -8,18 +8,14 @@ I reccomend installing a hacks mod like Cheat Sheet to assist in testing
 
 
 
-## things to do today:
-- create xith ore
-- create liquid xith
-- flesh out boss
+
 
 ### TODO:
 
 - Update Sword Sprites
 - Add unique behaviour to Xithen Slimes
-- Add a King Slime Clone thats purple and glowy
-- Investigate ore generation
+- Work on King Slime Clone thats purple and glowy
+- Sprite ore generation
 - Make custom Xith particle effect
 - Make final omega sword (and boss specific ingredients)
-- Standardize Palette]
-- Create Debug struct for testing
+- Create Debug struct for testing (sorta done)
