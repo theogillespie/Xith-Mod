@@ -6,16 +6,8 @@
 ## Notes:
 I reccomend installing a hacks mod like Cheat Sheet to assist in testing
 
-
-
-
-
 ### TODO:
-
-- Update Sword Sprites
-- Add unique behaviour to Xithen Slimes
-- Work on King Slime Clone thats purple and glowy
+- Update Sword Sprites (fix basic, remove white gunk)
+- Add unique behaviour to Xithen Slimes (debuf maybe)
 - Sprite ore generation
-- Make custom Xith particle effect
 - Make final omega sword (and boss specific ingredients)
-- Create Debug struct for testing (sorta done)

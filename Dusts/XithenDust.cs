@@ -9,7 +9,7 @@ namespace SophmoreProject.Dusts
 	{
 		public override void OnSpawn(Dust dust)
 		{
-			dust.noLight = false;
+			dust.noLight = true;
 			dust.color = Palette.baseColor;
 			dust.scale = 1.2f;
 			dust.noGravity = true;
@@ -21,9 +21,10 @@ namespace SophmoreProject.Dusts
 		{
 			dust.position += dust.velocity;
 			dust.rotation += dust.velocity.X;
-			Lighting.AddLight(10, 10, Palette.lightColor.R, Palette.lightColor.G, Palette.lightColor.B);
-
+			float strength = dust.scale / 2f;
+			Lighting.AddLight((int)(dust.position.X / 16f), (int)(dust.position.Y / 16f), Palette.baseColor.R / 255f * 0.5f * strength, Palette.baseColor.G / 255f * 0.5f * strength, Palette.baseColor.B / 255f * 0.5f * strength);
 			return false;
 		}
+		
 	}
 }
