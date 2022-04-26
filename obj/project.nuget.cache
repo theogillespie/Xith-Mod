@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xWWgw36iPGomGsySyfFZHInkXkV+Wi8CR4+eJH3OmsncVcp9j7vPYbdY9Xl4fmMc0a/OumWf4ZmBtZSB7r/B+w==",
+  "dgSpecHash": "wQVFz/w1/PGT+pqTM2wvcuFWC4D6bDOrKDdSY5eXLAADrYsleLzdPM4MvSaosW3AyZezZ5mRCPAM0hKxvJ5XzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\icat7\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SophmoreProject\\SophmoreProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\icat7\\.nuget\\packages\\tmodloader.codeassist\\0.1.3\\tmodloader.codeassist.0.1.3.nupkg.sha512"
+    "C:\\Users\\icat7\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],
   "logs": []
 }

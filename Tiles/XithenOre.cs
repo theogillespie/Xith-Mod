@@ -30,6 +30,9 @@ namespace SophmoreProject.Tiles
 			drop = ModContent.ItemType<Items.Materials.XithenOreItem>();
 			soundType = SoundID.Tink;
 			soundStyle = 1;
+
+
+		
 			
 		}
 	}
