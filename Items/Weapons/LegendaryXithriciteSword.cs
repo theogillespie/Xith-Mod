@@ -6,32 +6,32 @@ using SophmoreProject.Projectiles;
 
 namespace SophmoreProject.Items.Weapons
 {
-	public class EnchantedXithriciteSword : ModItem
+	public class LegendaryXithriciteSword : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			DisplayName.SetDefault("Enchanted Xith Sword"); 
-			Tooltip.SetDefault("An upgradaded version of a basic sword, this sword has gained the power to utilize strange magics");
+			DisplayName.SetDefault("LEGENDARY Xith Sword"); 
+			Tooltip.SetDefault("THe final form of the legendary xitrhricite sword, its power has been awakended and it will be a supreme slayer of evberything in your way");
 		}
 
 		public override void SetDefaults() 
 		{
-			item.damage = 35;
+			item.damage = 100;
 			item.melee = true;
 			item.width = 100;
 			item.height = 40;
-			item.useTime = 20;
+			item.useTime = 15;
 			item.useAnimation = 15;
 			item.useStyle = 1;
 			item.knockBack = 6;
-			item.value = 10000;
-			item.rare = 2;
-			item.UseSound = SoundID.Item1;
+			item.value = 1000000000;
+			item.rare = 5;
+			item.UseSound = SoundID.Item42;
 			item.autoReuse = true;
 
 			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.shoot = ProjectileID.AmethystBolt;
-			item.shootSpeed = 8f;
+			item.shootSpeed = 20f;
 		}
 
 		public override void AddRecipes() 
@@ -60,7 +60,7 @@ namespace SophmoreProject.Items.Weapons
 			{
 				ceilingLimit = player.Center.Y - 200f;
 			}
-			for (int i = 0; i < 3; i++)
+			for (int i = 0; i < 300; i++)
 			{
 				position = player.Center + new Vector2((-(float)Main.rand.Next(0, 401) * player.direction), -600f);
 				position.Y -= (100 * i);
